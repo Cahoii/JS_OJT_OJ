@@ -9,7 +9,7 @@ from django.template.loader import render_to_string
 from django.utils.decorators import method_decorator
 from django.utils.timezone import now
 from django.views.decorators.csrf import ensure_csrf_cookie, csrf_exempt
-from otpauth import OtpAuth
+import pyotp
 
 from problem.models import Problem
 from utils.constants import ContestRuleType

@@ -6,7 +6,7 @@ from copy import deepcopy
 
 from django.contrib import auth
 from django.utils.timezone import now
-from otpauth import OtpAuth
+import pyotp
 
 from utils.api.tests import APIClient, APITestCase
 from utils.shortcuts import rand_str
