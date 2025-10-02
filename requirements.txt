@@ -1,0 +1,43 @@
+# Core Django
+Django>=5.0,<6.0
+djangorestframework
+django-cors-headers
+django-filter
+django-dbconn-retry
+
+# Task queue / background jobs
+django-dramatiq
+dramatiq
+redis
+
+# Database drivers
+psycopg2-binary
+pymysql
+
+# Worker backends
+celery
+eventlet
+gevent
+
+# Logging & monitoring
+raven
+
+# Email handling
+envelopes
+
+# Utils
+requests
+python-dateutil
+PyYAML
+ujson
+
+# Other possible dependencies
+gunicorn
+whitenoise
+django-redis
+qrcode
+pillow
+otpauth
+XlsxWriter
+pytz
+jsonfield
